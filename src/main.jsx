@@ -1,11 +1,13 @@
 import "./styles/main.css";
-import { createElement as h, StrictMode } from "react";
+import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 const root = document.getElementById("root");
 
 if (root) {
   createRoot(root).render(
-    h(StrictMode, null, h("h1", { className: "Headline", Children: "안녕!" }))
+    <React.StrictMode>
+      <h1 className="hello">안녕!</h1>
+    </React.StrictMode>
   );
 }
