@@ -1,6 +1,8 @@
 # Vite 커스텀 스캐폴드 템플릿
 
-```sh
+
+## 저장소 복사 및 환경구성 동기화 방법
+```
 degit sungwoo00/likelion-vite-react <폴더_이름>
 cd <폴더_이름>
 pnpm install
