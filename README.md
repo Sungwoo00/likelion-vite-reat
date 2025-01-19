@@ -9,19 +9,16 @@ pnpm install
 ## 실행 명령어
 
 개발 서버 구동
-
-``
+```
 pnpm dev
 ```
 
 프로젝트 빌드
-
 ```
 pnpm build
 ``` 
 
 프로젝트 프리뷰
-
 ```
 pnpm preview
 ```
